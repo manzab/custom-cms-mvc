@@ -1,0 +1,96 @@
+body {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 5vh;
+    font-family: 'Montserrat', sans-serif;
+}
+nav {
+    display: flex
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    background-color: #b7b7a4;
+    padding: 15px;
+    color: white;
+}
+
+.logout {
+    /* transform-box: inherit; */
+    transform: translate(85%, 50%);
+}
+
+#login button {
+    display: block;
+    width: 5vw;
+    margin: 0;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login>input {
+    margin-top: 2vh;
+}
+
+#login {
+    text-align: center;
+    margin-top: 35vh;
+}
+
+#input {
+    margin-left: 5vw;
+    margin-bottom: 0;
+}
+table {
+    width: 90vw;
+    margin-top: 5vh;
+}
+th {
+    font-size: 1.5em;
+    background-color: bisque;
+    background-color: white;
+}
+thead th {
+    background-color: #b7b7a4;
+}
+td {
+    font-size: 1rem;
+    height: 1.5em;
+    width: calc(100% / 3);
+}
+tr:nth-of-type(even) {
+    background-color: white;
+}
+
+td,th, table {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: lightcoral;
+}
+input:focus, textarea:focus {
+    outline: 0;
+}
+input#title {
+    width: 70vw;
+}
+textarea {
+    width: 70vw;
+    height: 60vh;
+}
+input[type="submit"] {
+    background-color: lightcoral;
+    color: white;
+    padding: 10px;
+    font-size: 1.1em;
+}

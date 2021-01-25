@@ -1,0 +1,23 @@
+{
+    "name": "mantas/sprint3",
+    "description": "project to learn ORM commands and MVC architecture",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mantaszab",
+            "email": "mantaszab@yahoo.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.8"
+    },
+    "autoload": {
+        "psr-4": { 
+            "Models\\" : "src/models"
+        }
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.2"
+    }
+}
