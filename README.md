@@ -18,7 +18,7 @@ php composer-setup.php
 php -r "unlink('composer-setup.php');"
 ```
 \
--Run these commands in `sprint3` folder directory on terminal:
+-Run these commands in `sprint3` repository folder directory on terminal:
 ```
 php composer.phar install
 vendor\bin\doctrine orm:schema-tool:update --force --dump-sql
