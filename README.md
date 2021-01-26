@@ -28,7 +28,6 @@ vendor\bin\doctrine orm:schema-tool:update --force --dump-sql (if you are using 
 vendor/bin/doctrine orm:schema-tool:update --force --dump-sql (if you are using git bash / mac / linux terminals)
 php composer.phar dump-autoload
 ```
-<br/>
 - Enter this url to browser to see CMS:  
 [![2.png](https://i.postimg.cc/fT98f7py/2.png)](https://postimg.cc/SJmLy9yb)
 <br/><br/>
