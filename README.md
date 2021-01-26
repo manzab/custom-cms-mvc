@@ -5,12 +5,15 @@ A custom content management system created with raw PHP using Doctrine ORM, Comp
 ## Launch
 
 -Clone repository to `www` folder inside root AMPPS directory\
+\
 [![1.png](https://i.postimg.cc/5Nw1Xz4d/1.png)](https://postimg.cc/1f5bTfVJ)\
 \
 -After succesfully cloning you should see `sprint3` directory inside `www` directory\
+\
 [![7.png](https://i.postimg.cc/SsfZGdjC/7.png)](https://postimg.cc/1n4cmpG3)\
 \
 -Create `sprint3` database on MySQL Workbench\
+\
 [![3.png](https://i.postimg.cc/6pF1NjZd/3.png)](https://postimg.cc/sM9JYJwX)
 \
 -Install composer if you haven't done that already:
@@ -32,5 +35,6 @@ php composer.phar dump-autoload
 [![2.png](https://i.postimg.cc/fT98f7py/2.png)](https://postimg.cc/SJmLy9yb)\
 \
 If you want add changes to CMS enter this url (you will see login details in the input fields):\
+\
 [![6.png](https://i.postimg.cc/zvP4HJyQ/6.png)](https://postimg.cc/rRxfv2CG)
 
