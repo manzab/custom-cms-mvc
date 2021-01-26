@@ -7,7 +7,9 @@ A custom content management system created with raw PHP using Doctrine ORM, Comp
 - Clone repository to `www` folder inside root AMPPS directory  
 [![1.png](https://i.postimg.cc/5Nw1Xz4d/1.png)](https://postimg.cc/1f5bTfVJ)
 <br/><br/>
-- After succesfully cloning you should see `sprint3` directory inside `www` directory  
+- After succesfully cloning you should see `sprint3` directory inside `www` directory
+\
+\
 [![7.png](https://i.postimg.cc/SsfZGdjC/7.png)](https://postimg.cc/1n4cmpG3)
 <br/><br/>
 - Create `sprint3` database on MySQL Workbench  
