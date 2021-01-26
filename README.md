@@ -34,7 +34,7 @@ php composer.phar dump-autoload
 -Enter this url to browser to see CMS:\
 [![2.png](https://i.postimg.cc/fT98f7py/2.png)](https://postimg.cc/SJmLy9yb)\
 \
-If you want add changes to CMS enter this url (you will see login details in the input fields):\
+If you want to add pages to CMS enter this url (you will see login details in the input fields):\
 \
 [![6.png](https://i.postimg.cc/zvP4HJyQ/6.png)](https://postimg.cc/rRxfv2CG)
 
