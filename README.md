@@ -20,6 +20,7 @@ php -r "if (hash_file('sha384', 'composer-setup.php') === '756890a4488ce9024fc62
 php composer-setup.php
 php -r "unlink('composer-setup.php');"
 ```
+<br/>
 - Run these commands in `sprint3` repository folder on terminal:  
 ```
 php composer.phar install
@@ -27,6 +28,7 @@ vendor\bin\doctrine orm:schema-tool:update --force --dump-sql (if you are using 
 vendor/bin/doctrine orm:schema-tool:update --force --dump-sql (if you are using git bash / mac / linux terminals)
 php composer.phar dump-autoload
 ```
+<br/>
 - Enter this url to browser to see CMS:  
 [![2.png](https://i.postimg.cc/fT98f7py/2.png)](https://postimg.cc/SJmLy9yb)
 <br/><br/>
