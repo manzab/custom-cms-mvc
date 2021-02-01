@@ -21,7 +21,6 @@ vendor\bin\doctrine orm:schema-tool:update --force --dump-sql (if you are using 
 vendor/bin/doctrine orm:schema-tool:update --force --dump-sql (if you are using git bash / mac / linux terminals)
 php composer.phar dump-autoload
 ```
-<br/><br/>
 - Open sprint3 folder on localhost 
 
 
