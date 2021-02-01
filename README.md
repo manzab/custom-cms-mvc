@@ -21,7 +21,7 @@ vendor/bin/doctrine orm:schema-tool:update --force --dump-sql (if you are using 
 php composer.phar dump-autoload
 ```
 - Open `custom-cms-mvc` folder on localhost 
-<br/>
-<br/>
+<br/><br/>
 - If you want to add pages, just enter `/admin` after root url
-
+<br/><br/>
+- Login details will be provided in input fields
