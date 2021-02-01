@@ -1,29 +1,34 @@
 <?php
 include_once "bootstrap.php";
 
+function getPath($request)
+{
+    $path = explode('/', $request);
+    return $path[count($path) - 1];
+}
+
 $request = $_SERVER['REQUEST_URI'];
-$rootUrl = "/sprint3";
-$parentDir = dirname($_SERVER['REQUEST_URI'], 1);
+$root_url = getPath($request);
 
 switch ($request) {
-    case $rootUrl . '/':
+    case $root_url == '/':
         require __DIR__ . '/src/views/user/index.php';
         break;
-    case $rootUrl . '':
+    case $root_url == '':
         require __DIR__ . '/src/views/user/index.php';
         break;
-    case $rootUrl . '/admin':
+    case $root_url ==  'admin':
         require __DIR__ . '/src/views/admin/login.php';
         break;
-    case $rootUrl . '/addPage':
+    case $root_url ==  'addPage':
         require __DIR__ . '/src/views/admin/addPage.php';
         break;
-    case $rootUrl . '/action=logout':
+    case $root_url ==  'action=logout':
         session_start();
         unset($_SESSION['username']);
         unset($_SESSION['password']);
         unset($_SESSION['logged_in']);
-        header("Location: $rootUrl/admin");
+        require __DIR__ . '/src/views/admin/login.php';
         break;
     case $_SESSION['logged_in'] == true:
         require __DIR__ . '/src/views/admin/admin.php';
@@ -41,7 +46,7 @@ switch ($request) {
         $deletedPage = $entityManager->find('Models\Page', $_GET['delete']);
         $entityManager->remove($deletedPage);
         $entityManager->flush();
-        header('Location: ' . $rootUrl . '/admin');
+        require __DIR__ . '/src/views/admin/login.php';
         break;
     default:
         http_response_code(404);

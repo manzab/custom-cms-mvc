@@ -16,12 +16,12 @@ if (
     && !empty($_POST['password'])
 ) {
     if (
-        $_POST['username'] == 'Mantas' &&
-        $_POST['password'] == 'qwerty'
+        $_POST['username'] == 'admin' &&
+        $_POST['password'] == 'admin'
     ) {
         $_SESSION['logged_in'] = true;
         $_SESSION['timeout'] = time() + 1800;
-        $_SESSION['username'] = 'Mantas';
+        $_SESSION['username'] = 'admin';
     } else {
         $err = 'Wrong username or password';
         echo $err;
@@ -34,8 +34,8 @@ if ($_SESSION['logged_in'] == true) {
 } else {
 ?>
     <form id="login" action="" method="post">
-        <input type="text" name="username" placeholder="username = Mantas" required></br>
-        <input type="password" name="password" placeholder="password = qwerty" required>
+        <input type="text" name="username" placeholder="username = admin" required></br>
+        <input type="password" name="password" placeholder="password = admin" required>
         <button type="submit" name="login">Login</button>
     </form>
     <br>
