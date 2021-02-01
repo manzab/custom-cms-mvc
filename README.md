@@ -13,7 +13,7 @@ A custom content management system created with raw PHP using Doctrine ORM, Comp
 <br/><br/>
 - Install composer if you haven't done that already:  
 ```https://getcomposer.org/download/```
-
+<br/><br/>
 - Run these commands in `sprint3` repository folder on terminal:  
 ```
 php composer.phar install
@@ -21,7 +21,7 @@ vendor\bin\doctrine orm:schema-tool:update --force --dump-sql (if you are using 
 vendor/bin/doctrine orm:schema-tool:update --force --dump-sql (if you are using git bash / mac / linux terminals)
 php composer.phar dump-autoload
 ```
-
+<br/><br/>
 - Open sprint3 folder on localhost 
 
 
